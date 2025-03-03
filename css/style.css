@@ -1,6 +1,22 @@
-.header {
-  background-color: blue;
-  border: 1px solid black;
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(0, 204, 255);
+  background-image: url("../img/pattern.png");
+  background-size: 8%;
+}
+
+.logo {
+  width: 200px;
+  padding-top: 30px;
 }
 
 a {
@@ -16,7 +32,7 @@ thead {
   color: white;
   text-align: center;
 }
-.riga_azzura {
+.background-aquamarine {
   background-color: aquamarine;
   color: black;
 }
